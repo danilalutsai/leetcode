@@ -24,5 +24,9 @@
 // Explanation: gen.next() is never called so nothing is outputted
 
 var fibGenerator = function() {
-  let a = 0, let b = 1
+  let a = 0, b = 1
+  while (true) {
+    yield a
+    [a, b] = [a, a + b]
+  }
 }

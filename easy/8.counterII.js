@@ -32,13 +32,13 @@ var createCounter = function(init) {
   let value = init
   const obj = {
     increment: function() {
-      return value + 1
+      return ++value
     },
     decrement: function() {
-      return value - 1
+      return --value
     },
     reset: function() {
-      return init
+      return value = init
     }
   }
   return obj
