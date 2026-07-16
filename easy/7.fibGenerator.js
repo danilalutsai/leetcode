@@ -3,5 +3,5 @@ var fibGenerator = function() {
   while (true) {
     yield a
     [a, b] = [a, a + b]
-  }
+}
 }

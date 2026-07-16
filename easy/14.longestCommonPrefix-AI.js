@@ -12,4 +12,5 @@ longestCommonPrefix = function(array) {
   return prefix
 }
 
+
 console.log(longestCommonPrefix(['flower', 'flow', 'flight']))

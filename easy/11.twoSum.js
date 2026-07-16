@@ -7,4 +7,5 @@ const twoSum = function(nums, target) {
   }
 }
 
-console.log(twoSum([3,2,4], 6))
+
+console.log(twoSum([3,2,4,5,5], 6))
